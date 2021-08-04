@@ -17,7 +17,7 @@ int main() {
 
                 for (i = 2; i < entrada; i++){
                     if (entrada % i == 0) {
-                        //se o resultado da numero/qualquerOutroNumero for 0, quer a variável auxiliar recebe mais 1
+                        //se o resultado de numero/qualquerOutroNumero for 0, quer a variável auxiliar recebe mais 1
                         verificaDivisao++;
                         break;
                     } 
