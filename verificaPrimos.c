@@ -11,10 +11,6 @@ int main() {
         scanf("%d", &entrada);
 
         if (entrada != 0){
-            if ((entrada < 2) || (entrada > 100)){
-                printf("inválido\n");
-            } else {
-
                 for (i = 2; i < entrada; i++){
                     if (entrada % i == 0) {
                         //se o resultado de numero/qualquerOutroNumero for 0, quer a variável auxiliar recebe mais 1
@@ -29,9 +25,7 @@ int main() {
                 } else {
                     printf("%d nao primo\n", entrada);
                 }
-            } 
-        }
+				}	
     } while (entrada != 0);
-
     return 0;
 }
